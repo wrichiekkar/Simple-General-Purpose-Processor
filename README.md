@@ -1,5 +1,5 @@
 # Simple-General-Purpose-Processor.
-Desgined and constructed a macro-processor using VHDL and implemented it on a FPGA board. 
+Desgined and constructed a microprocessor using VHDL and implemented it on a FPGA board. 
 # Introduction  
 Constructing the Simple General-Purpose Processor requires multiple parts such as two latches, one Arithmetic Logic Unit (ALU), Control Unit which contains a FSM and a 4x16 Decoder, and the seven-segment display unit to output the our results. Each processor takes two inputs of 8-bits and processes it through the latches, which then goes into the ALU. The ALU also has the Control Unit’s output going into it, which then everything gets complied and processed. The overall output then is seen on the seven-segment display. The main goal was to design and construct a Simple-General-Purpose-Processor in VHDL and implement it on an FPGA board.
 # Components
